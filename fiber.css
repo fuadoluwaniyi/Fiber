@@ -409,10 +409,13 @@ footer ul{
         }
         .column-col1 .btn1{
             width: 100%;
+            padding: 20px;
+            margin: 10px 0px 0px 0px;
         }
         .column-col1 .btn2{
             width: 100%;
-            margin: 10px 0px;
+            padding: 5px 20px 15px 20px;
+            margin: 10px 0px 0px 0px;
         }
         .column-col1 .span2{
             display: block;
