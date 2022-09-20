@@ -47,12 +47,12 @@ body{
     list-style: none;
 }
 .menu li a{
-    color: black;
+    color: #343436;
     text-decoration: none;
     display: block;
     padding: 40px 25px;
     font-size: 15px;
-    font-weight: 300;
+    font-weight: 700;
     line-height: 1;
     transition: 0.3s;
 }
@@ -93,12 +93,12 @@ body{
 }
 .menu .inbutton li a:hover{
     border-radius: 7px;
-    box-shadow: 3px 3px 5px blue;
+    box-shadow: 3px 3px 5px #450fa3;
     padding: 25px 25px 25px 25px;
 }
 
 .upbutton{
-   background-color: blue;
+   background-color: #450fa3;
    border: none;
 }
 .upbutton li a{
@@ -215,7 +215,8 @@ body{
     border-style: hidden;
     cursor: pointer;
 	color: #ffffff;
-    background-color: blue;
+    background-color: #450fa3;
+    font-weight: bold;
 }
 .column-col1 .btn1:hover{
     box-shadow: none;
@@ -227,8 +228,9 @@ body{
     border-radius: 5px;
     border-style: hidden;
     cursor: pointer;
-	color: blue;
+	color: #450fa3;
     background-color: inherit;
+    font-weight: bold;
 }
 .column-col1 .btn2 p:hover{
     text-decoration: underline;
