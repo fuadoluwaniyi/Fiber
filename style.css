@@ -330,7 +330,7 @@ body{
     border-radius: 15px;
 }
 .column3{
-    padding: 70px 0;
+    padding: 0px;
     height: fit-content;
 }
 .column3-col1{
@@ -402,11 +402,14 @@ body{
     line-height: normal;
     min-width: 350px;
     padding: 20px;
-	margin: 20px 80px;
+	margin: 20px 60px;
     box-sizing: border-box;
     border: 2px solid #e1e1e4;
     border-radius: 7px;
     height: auto;
+}
+#col{
+	margin: 20px 60px 20px 0px;
 }
 .col{
     display: flex;
@@ -613,7 +616,7 @@ footer ul{
     }
 
 /*column_two responsive*/
-@media(max-width: 767px){
+@media(max-width: 768px){
 	.column2-col1{
 		margin: 0px 20px 25px;
 	 } 
@@ -660,7 +663,7 @@ footer ul{
         
     @media(max-width: 784px){
         .row3{
-            margin: 5%;
+            margin: 20px;
             display: block;
         }
         .column3-col1{
@@ -692,7 +695,7 @@ footer ul{
     }
     @media(max-width: 574px){
         .row3{
-            margin: 5%;
+            margin: 20px;
             display: block;
         }
         .column3-col1{
@@ -725,22 +728,25 @@ footer ul{
         }
     }   
  /* column_four responsiveness */
- @media(max-width: 700px){
+ @media(max-width: 768px){
+    .row4{
+        margin: auto 20px;
+    }
     .column4-col p{
         font-size: medium;
-    }   
+    }
+    #col{
+        margin: 20px auto;
+    }
 }
 @media(max-width: 547px){
     .row4{
         display: block;
+        margin: auto 20px;
     }
 	.column4-col{
-		margin: 20px auto;
-        max-width: 350px;
-	} 
-	.column2-col{
-		width: 100%;
-		margin: 5px 20px;
+		margin: 0px;
+        min-width: 200px;
 	}
      .column4-col p{
         font-size: small;   
@@ -761,7 +767,10 @@ footer ul{
 }
     
 /* footer responsiveness */
-@media(max-width: 767px){
+@media(max-width: 768px){
+    .row{
+        margin: auto 20px;
+    }
     .footer-column{
         width: 66%;
         padding: 0 15px;
