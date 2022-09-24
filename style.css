@@ -751,6 +751,9 @@ footer ul{
      .column4-col p{
         font-size: small;   
     }
+    #col{
+	margin: 20px 60px;
+    }
 }
 @media(max-width: 350px){
     .row4{
