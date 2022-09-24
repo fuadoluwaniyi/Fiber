@@ -727,7 +727,7 @@ footer ul{
  /* column_four responsiveness */
  @media(max-width: 700px){
     .column4-col p{
-        font-size: small;
+        font-size: medium;
     }   
 }
 @media(max-width: 547px){
@@ -743,7 +743,7 @@ footer ul{
 		margin: 5px 20px;
 	}
      .column4-col p{
-        font-size: large;   
+        font-size: small;   
     }
 }
 @media(max-width: 350px){
