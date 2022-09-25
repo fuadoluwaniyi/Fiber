@@ -643,12 +643,12 @@ footer ul{
 /*column_three responsive*/
 @media(max-width: 992px){
     .column3-col1{
-        background-color: red;
+        background-color: yellow;
         width: 40%;
         height: fit-content;
         padding: 70px 20px;
         position: relative;
-        margin: 0px -40px -100px 40px;
+        margin: 15x -40px -100px 40px;
         align-items: center;
         justify-content: center;
      }
