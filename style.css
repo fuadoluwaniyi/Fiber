@@ -759,7 +759,8 @@ footer ul{
         margin: auto 20px;
     }
     .column4-col p{
-        max-height: auto;
+        height: fit-content;
+        max-height: fit-content;
         font-size: medium;
     }
     #col{
