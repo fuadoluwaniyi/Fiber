@@ -180,7 +180,7 @@ body{
 }
 .column{
 	background-color: #f5e6ed;
-    padding: 70px 0;
+    padding: 20px 0;
 }
 .column-col1{
    width: 50%;
@@ -643,7 +643,6 @@ footer ul{
 /*column_three responsive*/
 @media(max-width: 992px){
     .column3-col1{
-        background-color: yellow;
         width: 40%;
         height: fit-content;
         padding: 70px 20px;
