@@ -638,7 +638,7 @@ footer ul{
 	 }
 }
 /*column_three responsive*/
-@media(max-width: 974px){
+@media(max-width: 992px){
     .column3-col1{
         width: 40%;
         height: fit-content;
@@ -759,7 +759,7 @@ footer ul{
         margin: auto 20px;
     }
     .column4-col{
-        max-\height: fit-content;
+        max-height: fit-content;
     }
     .column4-col p{
         font-size: medium;
