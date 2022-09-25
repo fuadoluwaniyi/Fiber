@@ -431,7 +431,7 @@ body{
 }
 .column4-col p{
     line-height: 1.5;
-    font-size: large;
+    font-size: small;
 	font-weight: 500;
 	color: black;
     margin-top: 10px;
@@ -768,14 +768,14 @@ footer ul{
         margin: auto 20px;
     }
 	.column4-col{
-        margin: 20px 30px;
+        margin: 20px 60px;
         min-width: 200px;
 	}
      .column4-col p{
         font-size: small;   
     }
     #col{
-        margin: 0px 30px 20px;
+        margin: 0px 60px 20px;
     }
     .column4-col button{
     font-size: 14px;
