@@ -431,7 +431,7 @@ body{
 }
 .column4-col p{
     line-height: 1.5;
-    font-size: small;
+    font-size: 16px;
 	font-weight: 500;
 	color: black;
     margin-top: 10px;
@@ -744,11 +744,14 @@ footer ul{
     .row4{
         margin: auto 20px;
     }
+    .column4-col{
+        max-height: 230px;
+    }
     .column4-col p{
         font-size: small;
     }
     #col{
-        margin: 20px auto;
+        margin: 20px 60px 20px 0px;
     }
 }
  @media(max-width: 768px){
