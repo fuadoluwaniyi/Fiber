@@ -744,6 +744,9 @@ footer ul{
     .row4{
         margin: auto 20px;
     }
+    .column4-col{
+        max-height: 250px;
+    }
     .column4-col p{
         font-size: small;
     }
@@ -756,6 +759,7 @@ footer ul{
         margin: auto 20px;
     }
     .column4-col p{
+        max-height: auto;
         font-size: medium;
     }
     #col{
